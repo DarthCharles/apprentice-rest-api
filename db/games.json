@@ -1,5 +1,92 @@
 {
   "game1" : {
-
+    "id" : 1,
+    "name" : "Uncharted 4: A Thief's End",
+    "genre" : "General",
+    "rating" : "T",
+    "price" : 1000,
+    "score" : "93",
+    "platform" : "PS4"
+  },
+  "game2" : {
+    "id" : 2,
+    "name" : "Ratchet & Clank",
+    "genre" : "Action",
+    "rating" : "E10+",
+    "price" : 1000,
+    "score" : "86",
+    "platform" : "PS4"
+  },
+  "game3" : {
+    "id" : 3,
+    "name" : "Battleborn",
+    "genre" : "Sci-Fi",
+    "rating" : "T",
+    "price" : 1000,
+    "score" : "71",
+    "platform" : "XONE"
+  },
+  "game4" : {
+    "id" : 4,
+    "name" : "Star Fox Zero",
+    "genre" : "Action",
+    "rating" : "E10+",
+    "price" : 800,
+    "score" : "69",
+    "platform" : "WiiU"
+  },
+  "game5" : {
+    "id" : 5,
+    "name" : "Quantum Break",
+    "genre" : "Action",
+    "rating" : "M",
+    "price" : 1000,
+    "score" : "77",
+    "platform" : "XONE"
+  },
+  "game6" : {
+    "id" : 6,
+    "name" : "Rocket League",
+    "genre" : "Sports",
+    "rating" : "E",
+    "price" : 250,
+    "score" : "87",
+    "platform" : "PS4"
+  },
+  "game7" : {
+    "id" : 7,
+    "name" : "Dark Souls 3",
+    "genre" : "Role-Playing",
+    "rating" : "M",
+    "price" : 1000,
+    "score" : "86",
+    "platform" : "XONE"
+  },
+  "game8" : {
+    "id" : 8,
+    "name" : "Grand Theft Auto V",
+    "genre" : "Action",
+    "rating" : "M",
+    "price" : 700,
+    "score" : "97",
+    "platform" : "XONE"
+  },
+  "game9" : {
+    "id" : 9,
+    "name" : "Pokemon Y",
+    "genre" : "Role-Playing",
+    "rating" : "E",
+    "price" : 500,
+    "score" : "88",
+    "platform" : "3DS"
+  },
+  "game10" : {
+    "id" : 10,
+    "name" : "Fire Emblem Fates: Revelation",
+    "genre" : "Strategy",
+    "rating" : "T",
+    "price" : 500,
+    "score" : "87",
+    "platform" : "3DS"
   }
 }
