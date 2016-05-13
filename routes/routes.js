@@ -24,7 +24,7 @@ module.exports = function(app){
     res.end();
   });
 
-  //SHOW A GAME WITH GIVEN ID
+  //UPDATE A GAME WITH GIVEN ID
   app.put('/game/:id', function (req, res) {
     res.end();
   });
