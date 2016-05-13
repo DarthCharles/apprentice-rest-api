@@ -1,0 +1,16 @@
+{
+  "name": "apprentice-rest-api",
+  "version": "1.0.0",
+  "description": "Example of a simple REST api for ns apprentice",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies":{
+    "express": "~4.0.0",
+    "body-parser": "~1.0.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
