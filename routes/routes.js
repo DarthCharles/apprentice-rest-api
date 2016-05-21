@@ -43,21 +43,6 @@ module.exports = function(app){
     });
   });
 
-  //UPDATE A GAME WITH GIVEN ID
-  app.put('/game/:id', function (req, res) {
-    fs.readFile( dirname + "/" + "games.json", 'utf8', function (err, data) {
-      games = JSON.parse(data);
-      var id = req.params.id
-      var name = req.body.name
-      var game = games["game" + req.params.id]
-
-      game.name = name
-
-      save(games);
-      res.json(game);
-    });
-  });
-
   //DELETES A GAME WITH GIVEN ID
   app.delete('/game/:id', function (req, res) {
     fs.readFile( dirname + "/" + "games.json", 'utf8', function (err, data) {
