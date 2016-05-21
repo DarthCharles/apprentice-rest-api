@@ -8,9 +8,12 @@ var app = express();  // define our app using express
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-
 // ROUTES FOR OUR API
 var router =  require('./routes/routes.js')(app);
+
+app.use(function(req, res, next) {
+  res.status(404).send('[404] Say whaaaaaaat???');
+});
 
 // START THE SERVER
 var port = process.env.PORT || 8080;
