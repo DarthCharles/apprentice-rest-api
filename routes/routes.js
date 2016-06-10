@@ -48,10 +48,23 @@ module.exports = function(app){
     fs.readFile( dirname + "/" + "games.json", 'utf8', function (err, data) {
         var games = JSON.parse(data);
         var id = req.params.id;
-        games["game" + req.params.id] = {}
+        delete games["game" + req.params.id]
 
         save(games)
         res.json(games);
+    });
+  });
+
+  app.put('/game/:id', function(req, res){
+    fs.readFile( dirname + "/" + "games.json", 'utf8', function (err, data) {
+      var games = JSON.parse(data);
+      var id = req.params.id;
+      var game =  req.body
+      game.id = id
+
+      games["game" + id ] = game
+      save(games)
+      res.json(game);
     });
   });
 
